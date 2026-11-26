@@ -1,7 +1,7 @@
 [package]
 namespace   = "huxerui"
 name        = "charts"
-version     = "0.1.0"
+version     = "0.1.1"
 standard    = "c++23"
 description = "HuxerUI declarative charts library (line, area, bar, scatter, and pie charts)"
 license     = "MIT"
