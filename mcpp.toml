@@ -1,0 +1,28 @@
+[package]
+namespace   = "huxerui"
+name        = "charts"
+version     = "0.1.1"
+standard    = "c++23"
+description = "HuxerUI declarative charts library (line, area, bar, scatter, and pie charts)"
+license     = "MIT"
+repo        = "https://github.com/HuxerUI/Lib-Charts"
+
+[package.metadata.huxerui]
+library   = "HuxerUI::Charts"
+resources = "resources"
+name      = "charts"
+id        = "org.huxerui.charts"
+namespace = "huxerui"
+
+[dependencies]
+huxerui.huxerui = "0.5.5"
+
+[targets.huxerui_charts]
+kind = "lib"
+
+[lib]
+path = "modules/charts.cppm"
+
+[build]
+sources      = []
+include_dirs = ["include"]
